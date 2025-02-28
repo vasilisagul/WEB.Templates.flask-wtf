@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+    <title>{{ title }}</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=oUhY4eDEjKYjkH-KFTaeSNDdW2TIllfI88pQTNk77MmVwQSYw7kmqCvgXljdPmBgNk8qK0Dy80oti4gBUW7CY4ezQM8-_lBfIX-dQ3HpRCWcnr2qFMSmfJGjmjT6Gb0rh3alQiFMz8aagfKa10Ih5JHkndOwwRafBnIfEjAliWxQPP96y3qJAGoir-P1rFKICZ589mjTInXZaeraFaeq0PPrJSccQaUlA6dQ0AH20OHvXsv7I15ruPyiWOoBeMJqk42_YE7Q5cbWafLUnXX3VytPgKtuyGLHBb3okiNH9sztYtOiWRsDEJB1QKYo63CBwMBwtSeBIGmXEtpCMrCz1A1GQDJ5VaTQpUCgccQ1KUEEByNZxTjG3QSA0Yu72V8WNldHUsnl435-5ON9MkbUR3sP5DHkSOFQdIMhH0X9s0FNGiIBg2I1_boO4EIBrpwz1UBCsNZe30FEY8AlBCgzK0RWWAiBPw6E92lLxlutIEwcc9AwOoIxsq_QdkcdE0yIKsRelKhB3qx1FawCjBvCTA7ygkg9zt4Cdfn3S2DTXvlnpK7Ur39RGgx7K3d_3PRc3MNcQbOhrfCRgmwkJwy18f2NV0r5li3V0mhgVKhx9dRhWKTvFcMy9aewvnKSHELAf0K3JHbT10nJUw8Fo2yp2l1fIO6a_gk5DpihflmLMwJhtpxifpUnOmy4SyhKtodCpWzEsWdXh_Cws5xM_hwpNPZq0qkRfu5sOGsIcFfXOzj-1rl2_y3njoeQ9NFY-7azYa0rNyUewE9w_u8u87GMpSpfLO_4hXRVW-7CF324dtekADRAq5EfpuKu7wXKKk4FUCDTIntDVKkgQRfOD49KXsh_3GyMhy6dLX3a4lAd01E" charset="UTF-8"></script></head>
 <body>
+<header>
+    <nav class="navbar navbar-light bg-light">
+        <h1>Миссия Колонизация Марса</h1>
+        <a class="navbar-brand" href="#">Mars One</a>
+    </nav>
+    <h4>И на Марсе будут яблони цвести!</h4>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="container">
+    {% block content %}{% endblock %}
+</main>
 
 </body>
 </html>
+
